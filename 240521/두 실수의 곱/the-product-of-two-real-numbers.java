@@ -3,6 +3,6 @@ public class Main {
         float a = 5.26;
         float b = 8.27;
     
-        System.out.print(c.f3);
+        System.out.print(a*b.f3);
     }
 }
