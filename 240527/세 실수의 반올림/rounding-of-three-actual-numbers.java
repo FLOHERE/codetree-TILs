@@ -5,14 +5,16 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         double a;
-        a = nextDouble();
+        a = sc.nextDouble();
         
         double b;
-        b = nextDouble();
+        b = sc.nextDouble();
 
         double c;
-        c = nextDouble();
+        c = sc.nextDouble();
 
-        System.out.printf("%.3f", a+b+c);
+        System.out.printf("%.3f\n", a);
+        System.out.printf("%.3f\n", b);
+        System.out.printf("%.3f\n", c);
     }
 }
