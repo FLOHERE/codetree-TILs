@@ -5,11 +5,11 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int degree = sc.nextInt();
 
-        if(degree<=0){
+        if(degree<0){
             System.out.print("ice");
         }else if(degree>=100){
             System.out.print("vapor");
-        }else if(degree>0 && degree<100){
+        }else{
             System.out.print("water");
         }
     }
