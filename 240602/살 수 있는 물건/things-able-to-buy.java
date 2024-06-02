@@ -11,7 +11,7 @@ public class Main {
             System.out.print("book");
         }else if(n>=mask){
             System.out.print("mask");
-        }else if(n<=0){
+        }else if(n<=1000){
             System.out.print("no");
         }
     }
