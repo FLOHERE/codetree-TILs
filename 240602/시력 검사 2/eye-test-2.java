@@ -7,7 +7,7 @@ public class Main {
 
         if(eye>=1.0){
             System.out.print("High");
-        }else if(eye<=0.5){
+        }else if(eye>=0.5){
             System.out.print("Middle");
         }else{
             System.out.print("Low");
