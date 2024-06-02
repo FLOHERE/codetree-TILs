@@ -14,6 +14,8 @@ public class Main {
             System.out.print(Aclass2);
         }else if(input==3){
             System.out.print(Aclass3);
+        }else{
+            System.out.print("Vacancy");
         }
     }
 }
