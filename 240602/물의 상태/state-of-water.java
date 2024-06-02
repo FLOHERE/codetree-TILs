@@ -9,7 +9,7 @@ public class Main {
             System.out.print("ice");
         }else if(degree>100){
             System.out.print("vapor");
-        }else{
+        }else if(degree<0 && degree>100){
             System.out.print("water");
         }
     }
