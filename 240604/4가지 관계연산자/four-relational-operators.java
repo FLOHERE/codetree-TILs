@@ -6,13 +6,13 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        if(a>b){
+        if(a>=b){
             System.out.println("1");
         }else{
             System.out.println("0");
         }
 
-        if(a>=b){
+        if(a>b){
             System.out.println("1");
         }else{
             System.out.println("0");
