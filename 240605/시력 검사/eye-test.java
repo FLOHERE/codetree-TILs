@@ -7,11 +7,13 @@ public class Main {
         double right = sc.nextDouble();
         double left = sc.nextDouble();
 
-        if(right>=1.0 && left>=1.0){
+        if(right>=1.0 && left >=1.0){
             System.out.print("High");
-        }else if(right>=0.5 && left>=0.5){
-            System.out.print("Middle");
-        }else if(right<0.5 && left<0.5){
+        }else if(right>=0.5 && right<1.0){
+            if(left>=0.5 && right<1.0){
+                System.out.print("Middle");
+            }
+        }else if(right<=0.5 && left<=0.5){
             System.out.print("Low");
         }
     }
