@@ -13,7 +13,7 @@ public class Main {
             if(left>=0.5 && right<1.0){
                 System.out.print("Middle");
             }
-        }else if(right<=0.5 && left<=0.5){
+        }else{
             System.out.print("Low");
         }
     }
