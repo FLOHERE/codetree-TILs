@@ -4,17 +4,18 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        double right = sc.nextDouble();
-        double left = sc.nextDouble();
-
-        if(right>=1.0 && left >=1.0){
-            System.out.print("High");
-        }else if(right>=0.5 && right<1.0){
-            if(left>=0.5 && right<1.0){
-                System.out.print("Middle");
-            }else{
-                System.out.print("Low");
-            }
-        }
+        // 변수 선언
+        double a, b;
+        
+        // 입력
+        a = sc.nextDouble();
+        b = sc.nextDouble();
+        
+        if(a >= 1.0 && b >= 1.0)
+            System.out.println("High");
+        else if(a >= 0.5 && b >= 0.5)
+            System.out.println("Middle");
+        else
+            System.out.println("Low");
     }
 }
