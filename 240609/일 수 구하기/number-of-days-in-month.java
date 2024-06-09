@@ -5,7 +5,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        if(n%2==0){
+        if(n==2){
             System.out.print("28");
         }
         else if(n==1 || n==3 || n==5 || n==7 || n==8 || n==10 || n==12){
