@@ -6,7 +6,9 @@ public class Main {
         int n = sc.nextInt();
         
         for(int i = 1; i<=n; i++){
-            if(i%3==0 || i%6==0 || i%9==0){
+            if(i%3==0){
+                System.out.print(0 + " ");
+            }else if(i%13==0){
                 System.out.print(0 + " ");
             }else{
                 System.out.print(i + " ");
