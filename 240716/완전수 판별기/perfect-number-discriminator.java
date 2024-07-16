@@ -6,17 +6,18 @@ public class Main {
        int n = sc.nextInt();
        int sum = 0;
 
-        for(int i = 1; i<=n; i++){
+        for(int i = 2; i<=n; i++){
             sum = (n%i) + (n/i);
             if(sum==n){
                 System.out.print("P");
                 break;
             }
+            if(sum!=n){
+                System.out.print("N");
+                break;
+            }
         }
-        
-        if(sum!=n){
-            System.out.print("N");
-        }
+    
         
     }
 }
