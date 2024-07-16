@@ -7,14 +7,14 @@ public class Main {
        int sum = 0;
 
         for(int i = 1; i<=n; i++){
-            sum = n/i;
-            if(sum==n){
-                System.out.print("P");
-                break;
-            }else{
-                System.out.print("N");
-                break;
-            }
+            sum = (n%i) + (n/i);
+            
         }
+        if(sum==n){
+            System.out.print("P");
+        }else{
+            System.out.print("N");
+        }
+        
     }
 }
