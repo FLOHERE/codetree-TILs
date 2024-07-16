@@ -8,11 +8,13 @@ public class Main {
 
         for(int i = 1; i<=n; i++){
             sum = (n%i) + (n/i);
-            
+            if(sum==n){
+                System.out.print("P");
+                break;
+            }
         }
-        if(sum==n){
-            System.out.print("P");
-        }else{
+        
+        if(sum!=n){
             System.out.print("N");
         }
         
