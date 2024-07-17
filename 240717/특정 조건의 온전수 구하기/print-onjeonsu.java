@@ -15,7 +15,7 @@ public class Main {
             }
 
             if(i%3==0 && i%9!=0){
-                continue
+                continue;
             }
             System.out.print(i + " ");
 
