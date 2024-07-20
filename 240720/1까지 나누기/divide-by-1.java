@@ -11,7 +11,10 @@ public class Main {
             result = n/i;
 
             if(result/i<=1){
-                cnt++;
+                if(result/i==0){
+                    cnt++;
+                    break;
+                }
                 break;
             }
             cnt++;
