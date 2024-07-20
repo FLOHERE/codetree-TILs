@@ -10,7 +10,8 @@ public class Main {
         for(int i = 1; i<=n; i++){
             result = n/i;
 
-            if(result/i<2){
+            if(result/i<=1){
+                cnt++;
                 break;
             }
             cnt++;
