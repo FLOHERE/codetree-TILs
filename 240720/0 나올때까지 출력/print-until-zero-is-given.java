@@ -11,6 +11,6 @@ public class Main {
                 break;
             }
         }
-        System.out.print(n)
+        System.out.print(n);
     }
 }
