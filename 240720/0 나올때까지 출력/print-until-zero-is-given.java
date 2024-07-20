@@ -10,7 +10,7 @@ public class Main {
             if(n==0){
                 break;
             }
+            System.out.println(n);
         }
-        System.out.print(n);
     }
 }
