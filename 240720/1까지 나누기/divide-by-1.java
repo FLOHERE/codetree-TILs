@@ -14,8 +14,10 @@ public class Main {
                 if(result/i==0){
                     cnt++;
                     break;
+                }else if(result%2!=0){
+                    cnt--;
+                    break;
                 }
-                break;
             }
             cnt++;
         }
