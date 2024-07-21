@@ -11,6 +11,7 @@ public class Main {
             age = sc.nextInt();
 
             if(age>=30 || age<=20){
+                System.out.printf("%.2f", sum/cnt);
                 break;
             }
 
@@ -19,6 +20,6 @@ public class Main {
 
 
         }
-        System.out.printf("%.2f", sum/cnt);
+        
     }
 }
