@@ -6,11 +6,10 @@ public class Main {
         int n = sc.nextInt();
         boolean result = true;
 
-        for(int i = 1; i<=n; i++){
-            if(n%i!=0){
-                result = false;
-                break;
-            }
+        for(int i = 2; i<n; i++){
+           if(n%i==0){
+             result = false;
+           }
         }
         if(result==true){
             System.out.print("P");
