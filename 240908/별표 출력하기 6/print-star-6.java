@@ -17,12 +17,12 @@ public class Main {
             System.out.println();
         }
 
-        for(int i = 0; i<n-1; i++){
+        for(int i = 0; i<=n-i; i++){
             for(int j = 0; j<=n-i-3; j++){
                 System.out.print("  ");
             }
 
-            for(int j = 0; j<n+(2*i)-1; j++){
+            for(int j = 0; j<n+(2*i); j++){
                 System.out.print("* ");
             }
 
